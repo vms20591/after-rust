@@ -10,7 +10,7 @@
   }
 }
 .muted {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(115, 116, 128);
 }
 .responsive-iframe {
   position: relative;
@@ -62,10 +62,10 @@ nav a.active {
   color: #fff;
 }
 a[itemprop="url"] {
-  color: #ff9800;
+  color: rgb(43, 121, 162);
 }
 a[itemprop="url"]:hover {
-  color: #fff;
+  color: #ff9800;
 }
 a[href*="://"]::after,
 a[rel*="external"] {

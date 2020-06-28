@@ -1,18 +1,17 @@
-name = "after-dark"
-description = "A robust, elegant dark theme"
+name = "after-rust"
+description = "A robust, elegant rust theme"
 license = "MIT"
-homepage = "https://github.com/getzola/after-dark"
+homepage = "https://github.com/vms20591/after-rust"
 min_version = "0.11.0"
-demo = "https://zola-after-dark.netlify.com"
 
 [extra]
 
 
 [author]
-name = "Vincent Prouillet"
-homepage = "https://www.vincentprouillet.com"
+name = "vms20591"
+homepage = "https://github.com/vms20591/after-rust"
 
 [original]
-author =  "comfusion"
-homepage = "https://git.habd.as/comfusion/after-dark/"
-repo = "https://git.habd.as/comfusion/after-dark/"
+name = "Vincent Prouillet"
+homepage = "https://www.vincentprouillet.com"
+repo = "https://github.com/getzola/after-dark

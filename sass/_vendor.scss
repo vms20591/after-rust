@@ -41,14 +41,12 @@ code[class*=language-], pre[class*=language-], pre code {
 
 a {
   cursor: pointer;
-  color: #ff2e88;
+  color: rgb(43, 121, 162);
   text-decoration: none;
-  border-bottom: 1px solid #ff2e88
 }
 
 a:hover {
-  background-color: #ff2e88;
-  color: #fff
+  color: #ff9800 !important;
 }
 
 .grid {
@@ -863,11 +861,11 @@ select.form-control {
 }
 
 .dark {
-  color: #ccc
+  color: #262625
 }
 
 .dark, .dark pre {
-  background-color: #000
+  background-color: #e1e1db
 }
 
 .dark pre {
@@ -880,7 +878,7 @@ select.form-control {
 }
 
 .dark h1 a, .dark h2 a, .dark h3 a, .dark h4 a, .dark h5 a {
-  color: #ccc
+  color: rgb(43, 121, 162);
 }
 
 .dark code, .dark strong {

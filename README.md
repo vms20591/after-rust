@@ -1,15 +1,23 @@
-# after-dark
+# after-rust
+
+![after-rust screenshot](https://github.com/vms20591/after-rust/blob/master/screenshot.png?raw=true)
+
+This template is based on [after-dark](https://github.com/getzola/after-dark.git) template. The changes are purely style based as of now. Leaving original instructions below.
+
+---
+
+## after-dark
 
 ![after-dark screenshot](https://github.com/getzola/after-dark/blob/master/screenshot.png?raw=true)
 
-## Contents
+### Contents
 
 - [Installation](#installation)
 - [Options](#options)
   - [Top menu](#top-menu)
   - [Title](#title)
 
-## Installation
+#### Installation
 First download this theme to your `themes` directory:
 
 ```bash
@@ -43,9 +51,9 @@ If you want to paginate taxonomies pages, you will need to overwrite the templat
 as it only works for non-paginated taxonomies by default.
 
 
-## Options
+### Options
 
-### Top-menu
+#### Top-menu
 Set a field in `extra` with a key of `after_dark_menu`:
 
 ```toml
@@ -60,10 +68,10 @@ after_dark_menu = [
 If you put `$BASE_URL` in a url, it will automatically be replaced by the actual
 site URL.
 
-### Title
+#### Title
 The site title is shown on the homepage. As it might be different from the `<title>`
 element that the `title` field in the config represents, you can set the `after_dark_title`
 instead.
 
-## Original
+### Original
 This template is based on the Hugo template https://git.habd.as/comfusion/after-dark
