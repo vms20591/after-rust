@@ -1,3 +1,4 @@
+base_url = "http://example.com"
 compile_sass = true
 title = "after-rust theme"
 description = ""
@@ -9,7 +10,7 @@ taxonomies = [
 ]
 
 [extra]
-author = "Vincent"
+author = "vms20591"
 after_dark_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
