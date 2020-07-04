@@ -181,6 +181,10 @@ a:hover {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif
 }
 
+.hack em {
+  font-style: italic;
+}
+
 .hack blockquote, .hack code, .hack em, .hack strong {
   line-height: 20px
 }
@@ -286,22 +290,12 @@ a:hover {
   line-height: 20px
 }
 
-.hack em:after, .hack em:before {
-  content: "*";
-  display: inline
-}
-
 .hack pre code:after, .hack pre code:before {
   content: ''
 }
 
 .hack code {
   font-weight: 700
-}
-
-.hack code:after, .hack code:before {
-  content: "`";
-  display: inline
 }
 
 .hack hr {
@@ -874,19 +868,21 @@ select.form-control {
 }
 
 .dark pre code {
-  color: #00bcd4
+  color: #2b79a2;
 }
 
 .dark h1 a, .dark h2 a, .dark h3 a, .dark h4 a, .dark h5 a {
-  color: rgb(43, 121, 162);
+  color: #2b79a2;
 }
 
 .dark code, .dark strong {
   color: #262625
 }
 
-.dark code {
-  font-weight: 100
+.dark p code {
+  font-weight: 100;
+  color: #2b79a2;
+  font-style: italic;
 }
 
 .dark table {
