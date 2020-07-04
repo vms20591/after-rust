@@ -23,8 +23,19 @@
                     Published by {{ config.extra.author }}
                 {% endif %}
                 {% if page.taxonomies.categories %}
-                    {% set category = page.taxonomies.categories[0] %}
-                    in <a href="{{ get_taxonomy_url(kind="categories", name=category) | safe }}">{{ category }}</a>
+                    in 
+                    {% for category in page.taxonomies.categories %}
+                        <a href="{{ get_taxonomy_url(kind="categories", name=category) | safe }}">{{ category }}</a>
+                        {% if page.taxonomies.categories | length > 1 %}
+                            {% if loop.index != page.taxonomies.categories | length %}
+                                {% if loop.index == page.taxonomies.categories | length - 1 %}
+                                    and
+                                {% else %}
+                                    ,
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 {% endif %}
                 {% if page.taxonomies.tags %}
                     and tagged
